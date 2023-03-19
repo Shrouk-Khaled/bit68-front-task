@@ -1,0 +1,29 @@
+.mobileNav {
+    width: 100%;
+  .saleNav {
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .firstNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .search {
+    margin-bottom: 10px;
+    width: 100%;
+    input {
+      width: 100%;
+    }
+  }
+ 
+}

@@ -1,0 +1,60 @@
+.navbar {
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  .saleNav {
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    padding: 8px;
+    text-align: center;
+    p {
+      font-size: 14px;
+    }
+  }
+  .firstNav {
+    padding: 20px 0px;
+    display: flex;
+    .logo {
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      p {
+        font-size: 16px;
+      }
+    }
+    .searchBox {
+      width: 60%;
+      text-align: center;
+      input{
+        width: 70%;
+      }
+    }
+    .details {
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      .lang {
+        color: var(--secondaryColor);
+      }
+    }
+  }
+  .secondNav{
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+    display: flex;
+    padding-left: 40px;
+    p{
+        padding: 10px 25px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    p:last-of-type {
+        color: var(--yellowColor);
+      }
+  }
+}

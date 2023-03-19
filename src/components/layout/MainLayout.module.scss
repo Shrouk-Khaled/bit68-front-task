@@ -1,0 +1,23 @@
+.container {
+  height: auto;
+  width: 100%;
+
+  .mainNav {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .container {
+    .mainNav {
+      display: none;
+    }
+    .mobile {
+      display: block;
+    }
+  }
+}

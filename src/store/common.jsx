@@ -1,0 +1,1 @@
+export const BASE_URL = "https://api-task.bit68.com/en/api"

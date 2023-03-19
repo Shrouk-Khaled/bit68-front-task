@@ -1,0 +1,27 @@
+.item{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .pic{
+      width: 95%;
+      height: auto;
+      margin: auto;
+    }
+    .brand_pic{
+      background-color: #2D2F7D;
+      object-fit: contain;
+      padding: 20px;
+      border-radius: 50%;
+      .pic{
+        width: 80px;
+        height: 80px;
+      }
+    }
+    .text{
+      padding: 0 10px ;
+      margin-top: 10px;
+    }
+  }
